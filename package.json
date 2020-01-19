@@ -4,6 +4,7 @@
   "description": "boilerplate code for react projects  ",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "rbhadauria",
@@ -16,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/rbhadauria/react-boilerplate/issues"
   },
-  "homepage": "https://github.com/rbhadauria/react-boilerplate#readme"
+  "homepage": "https://github.com/rbhadauria/react-boilerplate#readme",
+  "devDependencies": {
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
 }
