@@ -1,3 +1,3 @@
-let getGreeting = name=> `Hello ${name}`
+let getGreeting = name => `Hello ${name}`;
 
 export default getGreeting;
