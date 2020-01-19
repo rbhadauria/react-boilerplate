@@ -5,6 +5,7 @@ module.exports = merge(baseConfig,{
     mode:'development',
     devServer:{
         port:3000
-    }
+    },
+    devtool:'source-map'
     
 })
